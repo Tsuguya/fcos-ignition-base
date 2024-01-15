@@ -1,0 +1,11 @@
+variant: fcos
+version: 1.5.0
+ignition:
+  config:
+    merge:
+      - local: users.ign
+      - local: timezone.ign
+      - local: network.ign
+      - local: hostname.ign
+      - local: rp_filter.ign
+      - local: ip_forward.ign

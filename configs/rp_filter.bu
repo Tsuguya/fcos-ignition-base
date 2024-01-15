@@ -1,0 +1,8 @@
+variant: fcos
+version: 1.5.0
+storage:
+  files:
+    - path: /etc/sysctl.d/reverse-path-filter.conf
+      contents:
+        inline: |
+          net.ipv4.conf.all.rp_filter=1

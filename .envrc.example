@@ -1,0 +1,5 @@
+export HOSTNAME=myhost.local
+export IP_ADDRESS=192.168.0.2/24
+export DEFAULT_GATEWAY=192.168.0.1
+export DNS_ADDRESS=192.168.0.1;
+export SSH_PUBLIC_KEY="ssh-ed25519 AAAA"
